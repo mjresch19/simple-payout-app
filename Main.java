@@ -5,11 +5,13 @@
  * A class that handles the I/O interactivity of the program
  * 
  */
+import EmployeePackage.*;
+
 public class Main {
 
     public static void main(String[] args)
     {
-        Employee employee = new Employee("John");
-        System.out.println(employee.getName());
+        Employee employee = new Artist("John");
+        System.out.println(employee.name);
     }
 }

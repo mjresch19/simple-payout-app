@@ -5,14 +5,11 @@
  * A class that describes the characteristic of a general employee
  * 
  */
+package EmployeePackage;
+
 public class Employee {
 
-    private String name;
-
-    Employee(String n) {
-
-        name = n;
-    }
+    public String name;
 
     public String getName() {return name;}
     
